@@ -1,0 +1,39 @@
+site_name: Manual SIG-CB Cancino Bike
+site_description: Manual de capacitacion del sistema SIG-CB
+site_author: Omar Bautista
+
+theme:
+  name: material
+  language: es
+  palette:
+    scheme: slate
+    primary: green
+    accent: lime
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - content.code.copy
+
+markdown_extensions:
+  - admonition
+  - tables
+  - toc:
+      permalink: true
+
+nav:
+  - Inicio: index.md
+  - Login: login.md
+  - Dashboard: dashboard.md
+  - Ventas: ventas.md
+  - Inventario: inventario.md
+  - Proveedores: proveedores.md
+  - Reportes: reportes.md
+  - Seguridad: seguridad.md
+  - Buenas Practicas: buenas-practicas.md
+  - Ejercicios: ejercicios.md
+  - Evaluacion: evaluacion.md
+  - Checklist Instructor: checklist.md
